@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+ }
+
+body {
+    color: #fff;
+    font-family: Poppins;
+    background-color: #D5BDC2;
+}
+
+header {
+    background: url(./img/Rfb1z4.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+section h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header-container p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.header-container a {
+    color: white;
+    text-decoration: none;
+    background-color: #DAA7B2;
+    border: solid 1px;
+    box-shadow: 10px 5px 5px #585555;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.header-container a:hover {
+    background-color: #D5BDC2;
+    transition: all 0.4s linear;
+ }
+
+ /* info-container */
+
+ .quartz-charact h2 {
+    text-align: center;
+    font-size: 70px;
+    padding: 4rem 0 3rem 0;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .quartz-charact img {
+    width: 30%;
+    height: 30%;
+  }
+  
+  .about-text {
+    width: 70%;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .img-left {
+    float: left;
+  }
+
+  .info-container-left .about-text {
+    text-align: center;
+    padding-top: 6rem;
+  }
+
+  .info-container-magic {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+
+  .info-container-magic .properties-list {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .info-container-magic .properties-list .list {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .info-container-magic .properties-list .list h3 {
+    font-size: 30px;
+  }
+
+  .info-container-magic .quote-text {
+    font-style: italic;
+    padding: 4rem 0 3rem 0;
+  }
+
+
+
+  
